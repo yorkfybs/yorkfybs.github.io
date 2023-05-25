@@ -21,7 +21,7 @@
     <nav>
         <a href="/" class="logo">FYBS</a>
         <div class="spacer"></div>
-        <a href="/schedule">Schedule</a>
+        <a href="#schedule">Schedule</a>
         <a href="/contact">Contact</a>
     </nav>
 
@@ -29,8 +29,8 @@
         <p class="title">Take some time for yourself</p>
         <p>Experience new ways to relieve your stress at FYBS, a club dedicated to finding new ways to manage your mental health</p>
         <div class="buttons">
-            <button>Learn More</button>
-            <button>Schedule</button>
+            <button data-action="goto" data-target-id="about">Learn More</button>
+            <button data-action="goto" data-target-id="schedule">Schedule</button>
         </div>
 
         <div class="bubbles">
@@ -42,7 +42,7 @@
 
     <div class="info">
         <div class="svg-container"></div>
-        <div class="info-body">
+        <div class="info-body" id="schedule">
             <div class="card">
                 <p class="label">Next Meeting</p>
                 <p>Feb. 28th<br>
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <p class="title">About Us</p>
         <p>At FYBS, we welcome everyone with open arms. Let’s grow and explore together!</p>
         <div class="cards">
